@@ -11,6 +11,7 @@ if (isNaN(distanza)) {
 if (isNaN(born)) {
     window.location.href = "web_pages/error.html";
 } else {
+    document.getElementById('hidden').setAttribute("id", "show");
     var prezzo = 0.21 * distanza;
     var d = new Date();
     var year = d.getFullYear();
