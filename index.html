@@ -13,7 +13,11 @@
             <div class="container text-white text-center">
                 <h1 class="display-4">Calcolatore Prezzo Biglietto Treno</h1>
                 <hr class="my-4">
-                <div class="row">
+                <div class="row" id="showoff">
+                    <h2 class="my-4">Mi dispiace, hai inserito un anno di nascita non valido</h2>
+                    <button class="btn btn-primary" id="refresh" onclick='my_fun()'>Riprova</button>
+                </div>
+                <div class="row" id="mainRow">
                     <div class="col-md-4 text-left">
                         <p class="lead">Vorresti viaggiare per <span id="distance"></span> Km.</p>
                         <p class="lead">Hai <span id="age"></span> anni.</p>

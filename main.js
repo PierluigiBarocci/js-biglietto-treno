@@ -6,7 +6,16 @@ var d = new Date()
 var year = d.getFullYear()
 var anni = year - born
 
+
 // condizioni
+if (isNaN(born)) {
+    document.getElementById('mainRow').setAttribute("class", "hidden");
+    document.getElementById('showoff').setAttribute("id", "visible");
+    function my_fun() {
+        document.location.reload();
+    };
+}
+
 if (anni < 18) {
     prezzoFinale = prezzo * 0.8
 } else if (anni >= 65) {
