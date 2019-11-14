@@ -1,9 +1,16 @@
-#showoff {
+#showoffAge {
+    display: none;
+}
+#showoffAge {
+    display: none;
+}
+#showoff2 {
     display: none;
 }
 #visible {
     display: block;
 }
+
 .hidden {
     display: none;
 }

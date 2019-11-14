@@ -1,6 +1,5 @@
 // variabili
 var distanza = parseInt(prompt('Quanti Km vuoi percorrere?'))
-var born = parseInt(prompt('In che anno sei nato?'))
 var prezzo = 0.21 * distanza
 var d = new Date()
 var year = d.getFullYear()
@@ -8,6 +7,15 @@ var anni = year - born
 
 
 // condizioni
+if (isNaN(distanza)) {
+    document.getElementById('mainRow').setAttribute("class", "hidden");
+    document.getElementById('showoff2').setAttribute("id", "visible2");
+    function my_fun() {
+        document.location.reload();
+    };
+} else {
+    var born = parseInt(prompt('In che anno sei nato?'))
+}
 if (isNaN(born)) {
     document.getElementById('mainRow').setAttribute("class", "hidden");
     document.getElementById('showoff').setAttribute("id", "visible");
