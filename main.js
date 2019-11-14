@@ -20,4 +20,7 @@ console.log(prezzo + '€');
 console.log(prezzoFinale + '€')
 // comandi
 
-document.getElementById('price').innerHTML = prezzoFinale;
+document.getElementById('distance').innerHTML = distanza;
+document.getElementById('age').innerHTML = anni;
+document.getElementById('price').innerHTML = prezzo;
+document.getElementById('finalprice').innerHTML = prezzoFinale;
