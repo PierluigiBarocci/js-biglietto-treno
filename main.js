@@ -12,7 +12,7 @@ if (isNaN(born)) {
     window.location.href = "web_pages/error.html";
 } else {
     document.getElementById('showoff').setAttribute("class", "jumbotron jumbotron-fluid bg-dark show");
-    var prezzo = 0.21 * distanza;
+    var prezzo = Math.ceil(0.21 * distanza);
     var d = new Date();
     var year = d.getFullYear();
     var anni = year - born;
