@@ -11,7 +11,7 @@ if (isNaN(distanza)) {
 if (isNaN(born)) {
     window.location.href = "web_pages/error.html";
 } else {
-    document.getElementById('hidden').setAttribute("id", "show");
+    document.getElementById('showoff').setAttribute("class", "jumbotron jumbotron-fluid bg-dark show");
     var prezzo = 0.21 * distanza;
     var d = new Date();
     var year = d.getFullYear();
@@ -26,7 +26,7 @@ if (anni < 18) {
 }
 else {
     prezzoFinale = prezzo;
-    document.getElementById('paragWar').setAttribute("id", "none");
+    document.getElementById('paragWarning').setAttribute("class", "lead text-warning show");
 }
 
 // comandi
