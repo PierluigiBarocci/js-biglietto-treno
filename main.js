@@ -19,3 +19,5 @@ console.log(anni);
 console.log(prezzo + '€');
 console.log(prezzoFinale + '€')
 // comandi
+
+document.getElementById('price').innerHTML = prezzoFinale;
