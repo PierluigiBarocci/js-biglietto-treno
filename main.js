@@ -1,8 +1,10 @@
 // variabili
 var distanza = parseInt(prompt('Quanti Km vuoi percorrere?'))
-var anni = parseInt(prompt('Quanti anni hai?'))
+var born = parseInt(prompt('In che anno sei nato?'))
 var prezzo = 0.21 * distanza
-
+var d = new Date()
+var year = d.getFullYear()
+var anni = year - born
 
 // condizioni
 if (anni < 18) {
