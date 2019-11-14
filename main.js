@@ -26,6 +26,7 @@ if (anni < 18) {
 }
 else {
     prezzoFinale = prezzo;
+    document.getElementById('paragWar').setAttribute("id", "none");
 }
 
 // comandi

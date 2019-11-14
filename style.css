@@ -1,7 +1,9 @@
 #hidden {
     display: none;
 }
-
+#paragWar {
+    display: none;
+}
 #show {
     display: block;
 }
